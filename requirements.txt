@@ -1,0 +1,7 @@
+Python
+pandas
+numpy
+tkinter              
+openpyxl
+matplotlib
+sqlite3           
