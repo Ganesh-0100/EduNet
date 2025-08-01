@@ -1,7 +1,4 @@
-python
-pandas
-numpy
-tkinter              
+python             
 openpyxl
 matplotlib
 sqlite3           
