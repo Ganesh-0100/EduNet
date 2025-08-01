@@ -1,4 +1,4 @@
-Python
+python
 pandas
 numpy
 tkinter              
