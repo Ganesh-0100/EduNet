@@ -24,10 +24,10 @@ st.dataframe(df_display2.style.highlight_max(axis=0, color="lightgreen"), height
 st.header("⏱ Per-Task Per-Cell Duration (seconds)")
 rows = []
 for cell, l in st.session_state['task_timings'].items():
-for rec in l:
-            rows.append({"Cell": cell, **rec})
-            timing_table = pd.DataFrame(rows)
-            st.dataframe(timing_table, height=200)
+            for rec in l:
+                        rows.append({"Cell": cell, **rec})
+                        timing_table = pd.DataFrame(rows)
+                        st.dataframe(timing_table, height=200)
 
     # Pie and bar charts
 col1, col2 = st.columns(2)
