@@ -1,4 +1,4 @@
-            df_hist = pd.DataFrame(st.session_state['history'][key])
+df_hist = pd.DataFrame(st.session_state['history'][key])
             fig_power = px.line(
                 df_hist, x='time', y='power', color='task', markers=True,
                 title=f"{key} - Time vs Power (Live)",
